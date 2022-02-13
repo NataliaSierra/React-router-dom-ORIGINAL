@@ -1,0 +1,56 @@
+.Si{
+  margin: 100px;
+}
+
+.containerFooterButtons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerButtonsHeader{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnHeader{
+  font-size: 1rem;
+  color: #000000;
+  height: 2rem;
+  background:linear-gradient(#00ffff, #2e2d2d); 
+  border-radius: 2rem;
+}
+
+.btnHeader:hover{
+  cursor: pointer;
+  color: #ffffff;
+  transition: 1s;
+  transform: scale(1.1);
+  background:linear-gradient(#09ff00, #2e2d2d);
+}
+
+.btnFooter{
+  font-size: 1rem;
+  height: 2rem;
+  background:linear-gradient(#31ade7, #ffffff); 
+  border-radius: 2rem;
+}
+
+.btnFooter:hover{
+  cursor: pointer;
+  color: #ffffff;
+  transition: 1s;
+  transform: scale(1.1);
+  background:linear-gradient(#16daa9, #811357);
+}
+
+.containerImage{
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageMain:hover{
+  transition: 1s;
+  filter: grayscale();
+  transform: scale(1.3);
+}
